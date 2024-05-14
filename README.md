@@ -17,18 +17,25 @@ EfficientNetV2モデルを使用し、EMNISTデータセットで学習されて
 
 # 実行方法
 このアプリは、GitHub上のリポジトリから入手できます。以下のコマンドを使ってリポジトリをクローンしてください。
+
 ```git clone https://github.com/sh7o90/handwriting_app```
 
 このコマンドを実行すると、handwriting_appというディレクトリにアプリのソースコードがダウンロードされます。
+
 クローンが完了したら、以下の手順に従ってアプリを実行してください。
+
 1.必要なライブラリをインストールします。
-```cd handwriting_app
-pip install -r requirements.txt```
+
+```cd handwriting_app```
+
+```pip install -r requirements.txt```
 
 アプリを起動します。
+
 ```streamlit run app.py```
 
 ブラウザで以下にアクセスすると、アプリが表示されます。
+
 ```http://localhost:8501```
 
 # デモ
